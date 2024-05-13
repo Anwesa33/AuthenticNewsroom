@@ -630,8 +630,9 @@ font-size:18px;
 line-height: 38px;
 color: #FFFFFF;
 }
-.ftr-mid ul li a:hover{
-    color: var(--theme-balck);
+.ftr-mid ul li a:hover {
+    color: white;
+    text-shadow: 4px 2px 5px #000;
 }
 .ftr-frm{
     background-color: white;
