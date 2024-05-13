@@ -1,0 +1,35 @@
+:root {
+    --red: #AD1313;
+    --theme-balck: #2D2D2D;
+}
+
+     @media (min-width: 768px) and (max-width: 5000px) {}
+     @media (min-width: 1550px) {}
+     @media (min-width: 1700px) {}
+     @media (min-width: 1750px) {}
+     @media (min-width: 2050px) {}
+     @media (max-width: 1550px) {}
+     @media (min-width: 1300px) and (max-width: 1400px) {  }
+     @media (max-width: 1399px){  }
+     @media (min-width: 1200px) and (max-width: 1299px) {  }
+     @media (max-width: 1200px) {    }
+     @media (max-width: 1200px) {    }
+     @media (max-width: 1299px) {    }
+     @media (min-width: 992px) {    }
+     @media (max-width: 1199px) {}
+     @media only screen and (max-width: 1099px) {}
+     @media only screen and (max-width: 1010px) { }
+     @media only screen and (max-width: 991px) {}
+     @media only screen and (min-width: 768px) and (max-width: 991px) {    }
+     @media only screen and (max-width: 850px) {}
+     @media only screen and (max-width: 767px) {}
+     @media only screen and (min-width:576px) and (max-width: 767px) {}
+     @media only screen and (max-width: 690px) {}
+     @media only screen and (max-width: 575px) {}
+     @media only screen and (max-width: 560px){ }
+     @media only screen and (max-width: 543px) {}
+     @media only screen and (max-width: 480px) {}
+     @media only screen and (max-width: 450px) {}
+     @media only screen and (max-width: 400px) {}
+     @media only screen and (max-width: 380px){ }
+     @media only screen and (max-width: 350px) {}
