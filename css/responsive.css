@@ -10,109 +10,162 @@
      @media (min-width: 2050px) {}
      @media (max-width: 1550px) {}
      @media (min-width: 1300px) and (max-width: 1400px) {  }
-     @media (max-width: 1399px){  }
-     @media (min-width: 1200px) and (max-width: 1299px) {  }
-     @media (max-width: 1200px) {}
-     @media (max-width: 1299px) {
-        .polity-box p {
+     @media (max-width: 1399px){ 
+        .trrt-bxtxt h5 {
             font-size: 16px;
         }
-        .trnd-lft-txt h3 {
-            font-size: 18px;
-        }
-        .polity-life p {
-            font-size: 14px;
-        }
-        .nav-link {
-            font-size: 19px;
-        }
-     }
-     @media (min-width: 992px) {}
-     @media (max-width: 1199px) {
-        .trnd-lft-txt p {
-            font-size: 13px;
-        }
-        .trrt-bxtxt h5 {
-            font-size: 15px;
-        }
         .polity-box p {
-            font-size: 14px;
-        }
-        .polity-life em {
-            width: 121px;
-            height: 70px;
-        }
-        .polity-life p {
-            width: calc(100% - 121px - 13px);
-            font-size: 13px;
-        }
-        .trnd-lft-txt h3 {
-            font-weight: 500;
             font-size: 16px;
             line-height: 1.3;
-            letter-spacing: 0.03em;
         }
-        .nav-item {
-            margin-right: 46px;
+        .trnd-lft-txt h3 {
+            font-size: 19px;
         }
-        .trending h2 {
-            font-size: 26px;
-            line-height: 1.2;
-            margin-bottom: 11px;
-        }
-        .trending {
-            padding: 28px 0px 50px 0px;
-        }
-        h2.sec-hdr {
-            font-size: 24px;
-            line-height: 1;
-            margin-bottom: 15px;
-        }
-        a.view {
-            padding: 9px 18px;
-            font-size: 15px;
-            line-height: 1;
-        }
-        .log-sgn {
-            font-size: 15px;
-            line-height: 1;
-        }
-        .hlt-hdr{
-            margin-bottom: 15px;
-        }
-        .inpt-fld label {
+        .trnd-lft-txt p {
             font-size: 13px;
+            margin-bottom: -3px;
+        }
+        .trnd-lft-txt h6 {
+            font-size: 11px;
+            margin-bottom: 5px;
+        }
+        .trnd-lft-txt span {
+            font-size: 12px;
+        }
+        .trend-lft {
+            height: 100%;
+        }
+        .trend-lft img {
+            object-fit:cover;
         }
         p.ftr-mntxt {
             font-size: 16px;
-            line-height: 33px;
+            line-height: 30px;
         }
-        .ftr-mid ul li a {
+        .ftr-frm p {
             font-size: 15px;
         }
-        .ftr-logo img {
-            width: 152px;
-            height: 49px;
+        .nav-link {
+            font-size: 20px;
         }
-        button.frm-btn {
-            margin: 6px 0 0 0;
-            padding: 8px 21px;
+        .log-sgn {
+            padding: 10px 14px;
             font-size: 16px;
         }
-     }
+        .new-time-commnt {
+            margin-bottom: 34px;
+            margin-top: -10px;
+        }
+        .new-main-txt h4 {
+            font-size: 14px;
+            margin-right: 14px;
+            margin-top: 10px;
+        }
+        .new-main-txt h2 {
+            font-size: 25px;
+            line-height: 27px;
+            margin-bottom: 12px;
+        }
+        .new-main-txt p {
+            font-size: 16px;
+        }
+      }
+     @media (min-width: 1200px) and (max-width: 1299px) {  }
+     @media (max-width: 1199px) {  
+        .nav-item {
+            margin-right: 41px;
+        }
+        .navbar-brand {
+            width: 147px;
+            height: 47px;
+        }
+        .header-padding {
+            height: 64px;
+            padding: 64px 0 0 0;
+        }
+        .trending {
+            padding: 30px 0px 60px 0px;
+        }
+        .polity-box em {
+            width: 180px;
+            height: 84px;
+        }
+        .polity-box p {
+            width: calc(100% - 13px - 180px);
+            font-size: 14px;
+            line-height: 1.3;
+        }
+        .trend-rt-box em {
+            width: 174px;
+        }
+        .trrt-bxtxt {
+            width: calc(100% - 174px - 11px);
+        }
+        .trrt-bxtxt h5 {
+            font-size: 14px;
+        }
+        h2.sec-hdr {
+            font-size: 24px;
+            line-height: 22px;
+            margin-bottom: 16px;
+        }
+        .trending h2 {
+            font-size: 29px;
+            line-height: 25px;
+            margin-bottom: 15px;
+        }
+        .life-outr .polity-box {
+            width: 100%;
+        }
+        .life-outr .trend-lft {
+            height: 300px;
+        }
+        .life-outr .row{
+            align-items: flex-start;
+        }
+        .life-outr .polity-box em {
+            width: 119px;
+            height: 68px;
+            margin-right: 9px;
+        }
+        .life-outr .polity-box {
+            margin-bottom: 8px;
+        }
+        .life-outr .polity-box p {
+            width: calc(100% - 9px - 119px);
+        }
+        a.view {
+            padding: 10px 16px;
+            font-size: 16px;
+        }
+        .hlt-hdr{
+            margin-bottom: 13px;
+        }
+        .ftr-mid {
+            margin-top: 22px;
+            margin-bottom: 30px;
+        }
+        .life a.view {
+            padding: 10px 16px;
+            font-size: 16px;
+            margin: -67px auto 0px 0px;
+        }
+       }
+     @media (min-width: 992px) {    }
+     @media (max-width: 1199px) {}
      @media only screen and (max-width: 1099px) {}
-     @media only screen and (max-width: 1010px) {}
+     @media only screen and (max-width: 1010px) { }
      @media only screen and (max-width: 991px) {}
-     @media only screen and (min-width: 768px) and (max-width: 991px) {}
+     @media only screen and (min-width: 768px) and (max-width: 991px) {    }
      @media only screen and (max-width: 850px) {}
      @media only screen and (max-width: 767px) {}
      @media only screen and (min-width:576px) and (max-width: 767px) {}
      @media only screen and (max-width: 690px) {}
      @media only screen and (max-width: 575px) {}
-     @media only screen and (max-width: 560px) {}
+     @media only screen and (max-width: 560px){ }
      @media only screen and (max-width: 543px) {}
      @media only screen and (max-width: 480px) {}
      @media only screen and (max-width: 450px) {}
      @media only screen and (max-width: 400px) {}
-     @media only screen and (max-width: 380px) {}
+     @media only screen and (max-width: 380px){ }
      @media only screen and (max-width: 350px) {}
